@@ -1,0 +1,15 @@
+{
+    "name": "nakedsnake/cc",
+    "autoload": {
+        "psr-4": {
+            "Nakedsnake\\Cc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "danyealmateen",
+            "email": "danyeal.mateen@hotmail.com"
+        }
+    ],
+    "require": {}
+}
