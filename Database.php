@@ -2,9 +2,9 @@
 
 class Database {
     private static $db_hostname = '127.0.0.1';
-    private static $db_username = 'nkdsnk';
-    private static $db_password = 'nkdsnk';
-    private static $db_database = 'gradering';
+    private static $db_username = 'nakedsnake';
+    private static $db_password = 'nakedsnake';
+    private static $db_database = 'cc';
 
     /*getConnection()*/
     public static function getConnection() {

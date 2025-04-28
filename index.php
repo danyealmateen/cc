@@ -5,27 +5,12 @@
     <title>code cabin</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<?php 
-require_once 'Kid.php';
-?>
-
-<script>
-function test() {
-    e.preventDefault();
-    <?php Kid::createKid('asd', 'asd', 'asd'); ?>
-}
-</script>
-
-
 <?php 
 
 require_once 'Kid.php';
 
 
 $kidData = Kid::getAll();
-
-
 
     echo '<form method="post">';
     echo '<input type="text" id="create_kid_name" placeholder="Fullständigt namn"/><br>';
